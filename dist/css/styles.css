@@ -603,6 +603,14 @@ progress {
   height: auto;
 }
 
+.team-member img {
+  transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+  transform: scale(1.1); 
+}
+
 .portfolio-item img {
   width: 100%; /* Pastikan gambar mengambil seluruh lebar container */
   height: 250px; /* Tentukan tinggi gambar agar seragam */
