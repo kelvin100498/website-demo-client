@@ -603,6 +603,12 @@ progress {
   height: auto;
 }
 
+.portfolio-item img {
+  width: 100%; /* Pastikan gambar mengambil seluruh lebar container */
+  height: 250px; /* Tentukan tinggi gambar agar seragam */
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi, tetapi tetap menutupi area */
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -683,6 +689,10 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
+}
+
+.gold-text {
+  color: var(--bs-link-hover-color);
 }
 
 .col {
@@ -11112,10 +11122,10 @@ header.masthead .masthead-heading {
   background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
+  font-size: 0,5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  margin-bottom: 0;
+  margin-bottom: 140;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
