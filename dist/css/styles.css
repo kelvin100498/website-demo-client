@@ -10950,12 +10950,12 @@ p {
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link{
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 0.95rem;
-    color: #000;
+    color: #c69b63;
     letter-spacing: 0.0625em;
   }
 
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #c69b63;
+    color: #000;
   }
   
   #mainNav.navbar-shrink .navbar-brand {
