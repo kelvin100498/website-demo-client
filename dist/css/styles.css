@@ -10984,6 +10984,15 @@ p {
   }
 }
 
+@keyframes slowZoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
@@ -10996,6 +11005,7 @@ header.masthead {
   background-size: cover;
   height: 110vh;
   animation: fadeInZoom 1.5s ease-out;
+  animation: fadeInZoom 1.5s ease-out, slowZoom 10s ease-in-out 1.5s forwards;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
