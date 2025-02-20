@@ -1300,6 +1300,7 @@ progress {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
+    color: white;
   }
   .col-lg-5 {
     flex: 0 0 auto;
@@ -6788,6 +6789,13 @@ textarea.form-control-lg {
   color: #1a1e21 !important;
 }
 
+.link-white {
+  color: white !important;
+}
+.link-white:hover, .link-dark:focus {
+  color: white !important;
+}
+
 .ratio {
   position: relative;
   width: 100%;
@@ -11367,8 +11375,8 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-color: #191514;
+  /* background-image: url("../assets/img/map-image.png"); */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -11421,6 +11429,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .footer {
+  background-color: #0b0505;
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
