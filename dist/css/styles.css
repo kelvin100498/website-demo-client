@@ -707,6 +707,10 @@ progress {
   color: white
 }
 
+.gray-text{
+color: #999999
+}
+
 
 .col {
   flex: 1 0 0%;
@@ -3823,6 +3827,81 @@ textarea.form-control-lg {
   color: var(--bs-navbar-brand-hover-color);
 }
 
+.icon-company-text{
+  color: #c69b63;
+  font-size: 18px; /* Perbesar ukuran font */
+  text-transform: uppercase; /* Kapital semua */
+  font-weight: bold;
+  margin-bottom: 30px;
+  display: block;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+
+.info-lain h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px; /* Sesuaikan ukuran font */
+  color: white; /* Warna teks */
+  font-weight: bold; /* Buat teks lebih tebal */
+  text-transform: uppercase; /* Ubah teks menjadi kapital */
+  margin-bottom: 30px;
+  display: block;
+}
+.contact-info {
+  font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
+  font-size: 16px; /* Samakan ukuran font */
+  color: #b3b3b3; /* Warna lebih soft seperti di gambar */
+  line-height: 1.6; /* Beri spasi antar baris */
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Beri jarak antara ikon dan teks */
+  margin-bottom: 10px; /* Beri jarak antar paragraf */
+}
+
+.contact-info i {
+  color: #c69b63;
+  font-size: 18px; /* Perbesar ikon agar seimbang */
+}
+
+.contact-info a {
+  color: #b3b3b3;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  font-weight: normal; /* Sesuaikan ketebalan font */
+}
+
+.contact-info a:hover {
+  color: #c69b63;
+}
+
+.info-lain {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-left: 20px; /* Beri jarak dengan contact info */
+  font-size: 18px; /* Perbesar ukuran font */
+  line-height: 1.6; /* Beri spasi antar baris */
+  margin-right: 250px; /* Atur jarak ke kiri */
+}
+
+.service-list {
+  list-style: none; /* Hilangkan bullet point */
+  padding-left: 0;
+  margin-top: 10px; /* Beri jarak dengan judul */
+  line-height: 1.6; /* Beri spasi antar baris */
+}
+
+.service-list li {
+  font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
+  font-size: 16px; /* Samakan ukuran font */
+  color: #b3b3b3; /* Warna lebih soft seperti di gambar */
+  line-height: 2; /* Tingkatkan nilai jika ingin jarak lebih besar */
+  display: block;
+}
+
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
@@ -6797,7 +6876,7 @@ textarea.form-control-lg {
 }
 
 .link-white {
-  color: white !important;
+  color: #999999 !important;
 }
 .link-white:hover, .link-dark:focus {
   color: white !important;
