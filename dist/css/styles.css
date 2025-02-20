@@ -3839,6 +3839,11 @@ textarea.form-control-lg {
   letter-spacing: 2px;
 }
 
+.address-plus {
+  margin-left: 50px;
+  display: block;
+  }
+
 .info-lain h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px; /* Sesuaikan ukuran font */
